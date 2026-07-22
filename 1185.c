@@ -18,7 +18,7 @@ int main(){
     // implemanta a logica principal do programa
     for(int i = 0; i < 12; i++){
         for(int j = 0; j < 12; j++){
-            if(i + j < 11){
+            if(i + j > 11){
                 soma += M[i][j];
                 contador++;
             }
