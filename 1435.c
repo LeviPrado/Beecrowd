@@ -13,7 +13,7 @@ int main(){
                 int dir = N - 1 - j;
 
                 int menor = cima;
-
+                // comparacoes! 
                 if (esq < menor){
                     menor = esq;
                 }
